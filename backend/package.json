@@ -2,10 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "app.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.start"
+    "start": "nodemon index.start",
+    "start2": "node index.js"
   },
   "keywords": [],
   "author": "",
